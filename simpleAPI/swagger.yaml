@@ -24,7 +24,7 @@ paths:
       summary: searches inventory
       description: |
         By passing in the appropriate options, you can search for
-        available inventory in the system
+        available inventory in the system and filter results by criteria.
       operationId: searchInventory
       parameters:
       - name: searchString
@@ -71,7 +71,7 @@ paths:
       tags:
       - admins
       summary: adds an inventory item
-      description: Adds an item to the system
+      description: Adds an item to the system and stores it in inventory for tracking.
       operationId: addInventory
       requestBody:
         description: Inventory item to add
